@@ -262,10 +262,6 @@ msgstr "銷售訂單"
 
 #: lib/enums/ModelInformation.tsx:162
 #: lib/enums/Roles.tsx:44
-#: src/pages/Index/Settings/SystemSettings.tsx:279
-#: src/pages/company/CompanyDetail.tsx:218
-#: src/pages/part/PartDetail.tsx:601
-#: src/pages/sales/SalesIndex.tsx:82
 msgid "Sales Orders"
 msgstr "銷售訂單"
 
@@ -2481,7 +2477,9 @@ msgid "Purchasing"
 msgstr "採購中"
 
 #: src/components/nav/NavigationDrawer.tsx:105
+#: src/defaults/links.tsx:60
 #: src/pages/company/CustomerDetail.tsx:9
+#: src/pages/sales/ReturnOrderDetail.tsx:511
 #: src/pages/sales/SalesOrderDetail.tsx:575
 #: src/pages/sales/SalesOrderShipmentDetail.tsx:362
 msgid "Issuance"
@@ -3649,12 +3647,6 @@ msgstr "轉到管理中心"
 #: src/pages/Index/Playground.tsx:217
 #~ msgid "Playground"
 #~ msgstr "Playground"
-
-#: src/defaults/links.tsx:60
-#: src/pages/sales/ReturnOrderDetail.tsx:511
-#: src/pages/sales/SalesIndex.tsx:139
-msgid "Sales"
-msgstr "銷售"
 
 #: src/defaults/links.tsx:76
 #~ msgid "Instance"
@@ -5850,6 +5842,13 @@ msgstr "標籤"
 msgid "Reporting"
 msgstr "報告"
 
+#: src/pages/Index/Settings/SystemSettings.tsx:279
+#: src/pages/company/CompanyDetail.tsx:218
+#: src/pages/part/PartDetail.tsx:601
+#: src/pages/sales/SalesIndex.tsx:82
+msgid "Issuance Orders"
+msgstr ""
+
 #: src/pages/Index/Settings/SystemSettings.tsx:317
 #~ msgid "Switch to User Setting"
 #~ msgstr "Switch to User Setting"
@@ -7341,6 +7340,10 @@ msgstr "掛起退貨訂單"
 #: src/pages/sales/ReturnOrderDetail.tsx:405
 msgid "Complete Return Order"
 msgstr "完成退貨訂單"
+
+#: src/pages/sales/SalesIndex.tsx:139
+msgid "Sales"
+msgstr "銷售"
 
 #: src/pages/sales/SalesOrderDetail.tsx:153
 msgid "Completed Shipments"

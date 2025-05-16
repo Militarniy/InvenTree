@@ -276,7 +276,7 @@ export default function SystemSettings() {
       },
       {
         name: 'salesorders',
-        label: t`Sales Orders`,
+        label: t`Issuance Orders`,
         icon: <IconTruckDelivery />,
         content: (
           <GlobalSettingList

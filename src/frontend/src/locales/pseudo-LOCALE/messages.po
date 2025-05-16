@@ -257,10 +257,6 @@ msgstr ""
 
 #: lib/enums/ModelInformation.tsx:162
 #: lib/enums/Roles.tsx:44
-#: src/pages/Index/Settings/SystemSettings.tsx:279
-#: src/pages/company/CompanyDetail.tsx:218
-#: src/pages/part/PartDetail.tsx:601
-#: src/pages/sales/SalesIndex.tsx:82
 msgid "Sales Orders"
 msgstr ""
 
@@ -1694,10 +1690,6 @@ msgid "Plugins"
 msgstr ""
 
 #: src/components/forms/InstanceOptions.tsx:143
-msgid "Disabled"
-msgstr ""
-
-#: src/components/forms/InstanceOptions.tsx:143
 #: src/tables/part/PartTestTemplateTable.tsx:117
 #: src/tables/settings/TemplateTable.tsx:248
 #: src/tables/settings/TemplateTable.tsx:359
@@ -1705,17 +1697,21 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
+#: src/components/forms/InstanceOptions.tsx:143
+msgid "Disabled"
+msgstr ""
+
 #: src/components/forms/InstanceOptions.tsx:149
 msgid "Worker"
 msgstr ""
 
 #: src/components/forms/InstanceOptions.tsx:150
-msgid "Running"
+#: src/tables/settings/FailedTasksTable.tsx:48
+msgid "Stopped"
 msgstr ""
 
 #: src/components/forms/InstanceOptions.tsx:150
-#: src/tables/settings/FailedTasksTable.tsx:48
-msgid "Stopped"
+msgid "Running"
 msgstr ""
 
 #: src/components/forms/fields/IconField.tsx:83
@@ -2509,7 +2505,9 @@ msgid "Purchasing"
 msgstr ""
 
 #: src/components/nav/NavigationDrawer.tsx:105
+#: src/defaults/links.tsx:60
 #: src/pages/company/CustomerDetail.tsx:9
+#: src/pages/sales/ReturnOrderDetail.tsx:511
 #: src/pages/sales/SalesOrderDetail.tsx:575
 #: src/pages/sales/SalesOrderShipmentDetail.tsx:362
 msgid "Issuance"
@@ -3636,12 +3634,6 @@ msgstr ""
 #: src/pages/Index/Playground.tsx:217
 #~ msgid "Playground"
 #~ msgstr ""
-
-#: src/defaults/links.tsx:60
-#: src/pages/sales/ReturnOrderDetail.tsx:511
-#: src/pages/sales/SalesIndex.tsx:139
-msgid "Sales"
-msgstr ""
 
 #: src/defaults/links.tsx:76
 #~ msgid "Instance"
@@ -5780,6 +5772,13 @@ msgstr ""
 msgid "Reporting"
 msgstr ""
 
+#: src/pages/Index/Settings/SystemSettings.tsx:279
+#: src/pages/company/CompanyDetail.tsx:218
+#: src/pages/part/PartDetail.tsx:601
+#: src/pages/sales/SalesIndex.tsx:82
+msgid "Issuance Orders"
+msgstr ""
+
 #: src/pages/Index/Settings/SystemSettings.tsx:318
 #~ msgid "Switch to User Setting"
 #~ msgstr ""
@@ -7266,6 +7265,10 @@ msgstr ""
 
 #: src/pages/sales/ReturnOrderDetail.tsx:405
 msgid "Complete Return Order"
+msgstr ""
+
+#: src/pages/sales/SalesIndex.tsx:139
+msgid "Sales"
 msgstr ""
 
 #: src/pages/sales/SalesOrderDetail.tsx:153

@@ -598,7 +598,7 @@ export default function PartDetail() {
       },
       {
         name: 'sales_orders',
-        label: t`Sales Orders`,
+        label: t`Issuance Orders`,
         icon: <IconTruckDelivery />,
         hidden: !part.salable || !user.hasViewRole(UserRoles.sales_order),
         content: part.pk ? <SalesOrderTable partId={part.pk} /> : <Skeleton />

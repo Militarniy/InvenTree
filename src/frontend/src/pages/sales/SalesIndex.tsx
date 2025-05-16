@@ -79,7 +79,7 @@ export default function SalesIndex() {
     return [
       {
         name: 'salesorders',
-        label: t`Sales Orders`,
+        label: t`Issuance Orders`,
         icon: <IconTruckDelivery />,
         content: <SalesOrderOverview view={salesOrderView} />,
         controls: (

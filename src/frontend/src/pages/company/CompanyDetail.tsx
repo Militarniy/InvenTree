@@ -215,7 +215,7 @@ export default function CompanyDetail(props: Readonly<CompanyDetailProps>) {
       },
       {
         name: 'sales-orders',
-        label: t`Sales Orders`,
+        label: t`Issuance Orders`,
         icon: <IconTruckDelivery />,
         hidden: !company?.is_customer,
         content: company?.pk && <SalesOrderTable customerId={company.pk} />
