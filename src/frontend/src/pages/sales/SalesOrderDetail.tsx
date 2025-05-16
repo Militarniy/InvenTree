@@ -572,7 +572,7 @@ export default function SalesOrderDetail() {
             imageUrl={order.customer_detail?.image}
             badges={orderBadges}
             actions={soActions}
-            breadcrumbs={[{ name: t`Sales`, url: '/sales/' }]}
+            breadcrumbs={[{ name: t`Issuance`, url: '/sales/' }]}
             lastCrumb={[
               { name: order.reference, url: `/sales/sales-order/${order.pk}` }
             ]}

@@ -508,7 +508,7 @@ export default function ReturnOrderDetail() {
             imageUrl={order.customer_detail?.image}
             badges={orderBadges}
             actions={orderActions}
-            breadcrumbs={[{ name: t`Sales`, url: '/sales/' }]}
+            breadcrumbs={[{ name: t`Issuance`, url: '/sales/' }]}
             lastCrumb={[
               { name: order.reference, url: `/sales/return-order/${order.pk}` }
             ]}

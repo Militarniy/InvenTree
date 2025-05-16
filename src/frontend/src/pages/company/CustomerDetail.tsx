@@ -6,7 +6,7 @@ export default function CustomerDetail() {
   return (
     <CompanyDetail
       title={t`Customer`}
-      breadcrumbs={[{ name: t`Sales`, url: '/sales/' }]}
+      breadcrumbs={[{ name: t`Issuance`, url: '/sales/' }]}
       last_crumb_url='/sales/customer'
     />
   );

@@ -57,7 +57,7 @@ export function getNavTabs(user: UserStateProps): NavTab[] {
     },
     {
       name: 'sales',
-      title: t`Sales`,
+      title: t`Issuance`,
       icon: <IconTruckDelivery />,
       role: UserRoles.sales_order
     }

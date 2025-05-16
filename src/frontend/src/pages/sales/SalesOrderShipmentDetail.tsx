@@ -359,7 +359,7 @@ export default function SalesOrderShipmentDetail() {
             title={`${t`Sales Order Shipment`}: ${shipment.reference}`}
             subtitle={`${t`Sales Order`}: ${shipment.order_detail?.reference}`}
             breadcrumbs={[
-              { name: t`Sales`, url: '/sales/' },
+              { name: t`Issuance`, url: '/sales/' },
               {
                 name: shipment.order_detail?.reference,
                 url: getDetailUrl(ModelType.salesorder, shipment.order)
